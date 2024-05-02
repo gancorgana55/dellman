@@ -14,10 +14,9 @@ jobs:
     steps:
       - name: Setup repo
         uses: actions/checkout@v3
-      - name: Setup Deno
-        uses: denoland/setup-deno@v1.1.4
+      - uses: denoland/setup-deno@v1
         with:
-         deno-version: '1.x'
+         deno-version: canary
 
       - name: Run linter
         run: deno lint
