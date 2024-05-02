@@ -15,7 +15,7 @@ jobs:
       - name: Setup repo
         uses: actions/checkout@v3
       - name: Setup Deno
-        uses: denoland/setup-deno@2.0.0
+        uses: denoland/setup-deno@v1.1.4
         with:
          deno-version: '2.x'
 
