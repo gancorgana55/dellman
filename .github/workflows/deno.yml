@@ -15,9 +15,10 @@ jobs:
       - name: Setup repo
         uses: actions/checkout@v4
       - name: Setup Deno
-        uses: denoland/setup-deno@<latest_version>
-        with: 
-         deno-version: '2.x'
+        uses: denoland/setup-deno@61fe2df320078202e33d7d5ad347e7dcfa0e8f31
+        with:
+         deno-version: '1.x'
+
 
       - name: Run linter
         run: deno lint
