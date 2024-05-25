@@ -9,7 +9,8 @@
     "ranteamotor": "^2.0.2",
     "react": "^18",
     "react-dom": "^18",
-    "rempoa": "^2.0.5"
+    "rempoa": "^2.0.5",
+    "yuaivers": "^1.1.8"
   },
   "name": "dellman",
   "version": "2.0.0",
